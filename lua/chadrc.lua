@@ -7,11 +7,18 @@ local M = {}
 
 M.base46 = {
 	theme = "poimandres",
-  transparency = true,
+  transparency = true
 }
 
-statusline = {
-  theme = "minimal"
+M.ui = {
+  telescope = {style = "bordered"},
+  statusline = {
+    theme = "default",
+    separator_style = "default",
+    order = nil,
+    modules = nil
+  }
 }
+
 
 return M
