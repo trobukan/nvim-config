@@ -8,14 +8,10 @@ local M = {}
 M.base46 = {
 	theme = "poimandres",
   transparency = true,
-  lspkind_text = true,
-  style = "atom",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
 }
 
+statusline = {
+  theme = "minimal"
+}
 
 return M
